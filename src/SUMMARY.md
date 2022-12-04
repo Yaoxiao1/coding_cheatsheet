@@ -6,3 +6,5 @@
     - [priority_queue](./cpp/priority_queue.md)
 - [Rust](./rust.md)
     - [linked_list](./rust/linked_list.md)
+- [others](./others.md)
+    - [RSA](./others/RSA.md)
