@@ -1,10 +1,12 @@
 ## Prelude
-``` rust
+
+```rust
 use std::str;
 ```
 
 ### From Vec<char>
-``` rust
+
+```rust
 fn main() {
     let src: Vec<char> = vec!['j','{','"','i','m','m','y','"','}'];
     // to String
@@ -17,9 +19,9 @@ fn main() {
 }
 ```
 
-
 ### From Vec<u8>
-``` rust
+
+```rust
 fn main() {
     // in rust, this is a slice
     // b - byte, r - raw string, br - byte of raw string
@@ -35,9 +37,9 @@ fn main() {
 }
 ```
 
-
 ### From String
-``` rust
+
+```rust
 fn main() {
     let src: String = String::from(r#"o{"livia"}"#);
     let str3: &str = &src;
@@ -47,9 +49,9 @@ fn main() {
 }
 ```
 
-
 ### From str
-``` rust
+
+```rust
 fn main() {
     let src: &str = r#"g{'race'}"#;
     let string4 = String::from(src);
